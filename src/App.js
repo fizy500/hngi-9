@@ -9,7 +9,7 @@ export default function App() {
     return <Links key={item.id} {...item} />;
   });
   return (
-    <div className="my-4 ">
+    <div className="my-6 ">
       <Profile/>
       {links}
       <Logos />

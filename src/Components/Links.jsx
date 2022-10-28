@@ -1,5 +1,5 @@
 import React from "react";
-import Avatar from "../Assets/avatar.svg";
+import ProfilePhoto from "../Assets/profilePhoto.jpg";
 import Sharemobile from "../Assets/sharemobile.svg";
 import ShareDesk from "../Assets/sharedesktop.svg";
 import Slack from "../Assets/slack.svg";
@@ -9,18 +9,24 @@ import I4G from "../Assets/I4G.svg";
 
 export function Profile() {
   return (
-    <section className="  flex justify-center items-center  mx-8 relativeb ">
+    <section className="  flex justify-center items-center  mx-8 relative ">
       <div className="flex flex-col justify-center items-center">
-        <img src={Avatar} alt="" className="w-20 h-20 rounded-[50%]" />
+        <img
+          className="w-20 h-20 rounded-[50%] object-cover "
+          src={ProfilePhoto}
+          alt=""
+          id="profile__img"
+        />
         <h2 className="font-bold text-gray-900 text-lg md:text-xl">
           Otuekong Idongesit
         </h2>
+        <p className="invisible" id="slack">fizy_hector</p>
       </div>
       <a href="">
         <img
           src={ShareDesk}
           alt=""
-          className="hidden md:block  absolute top-3 right-[30rem] w-10 h-10 rounded-[50%] border-zinc-100 border-dotted border-2"
+          className="hidden md:block  absolute top-1 right-[30rem] w-10 h-10 rounded-[50%] border-gray-300 border-dotted border-2"
         />
       </a>
       <a href="">
@@ -38,13 +44,13 @@ export function Links(props) {
   return (
     <a
       href={props.link}
-      className="bg-gray-200 text-center px-20 py-8 rounded-md hover:bg-gray-400  flex flex-col justify-center items-center mx-8 my-4 "
+      className="bg-gray-200 text-center px-20 py-8 rounded-md shadow-sm focus:bg-gray-400  flex flex-col justify-center items-center mx-8 my-4 "
       id={props.identifier}
+      title={props.description}
     >
       <p className="text-sm md:text-lg font-medium text-gray-900">
         {props.title}
       </p>
-      <p className="">{props.description}</p>
     </a>
   );
 }
@@ -57,7 +63,6 @@ export function Logos() {
     </div>
   );
 }
-
 export function Footer() {
   return (
     <footer className="w-full  px-5 md:grid grid-cols-1 justify-center items-center py-10">

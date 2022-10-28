@@ -1,7 +1,7 @@
 export default [
   {
     id: 1,
-    identifier: "",
+    identifier: "twitter",
     title: "Twitter Link",
     description: "This is just testing",
     link: "https://twitter.com/Fizy_hector",
@@ -11,7 +11,7 @@ export default [
     id: 2,
     identifier: "btn__zuri",
     title: "Zuri Team",
-    description: "",
+    description: "Here is where you find books about design and coding",
     link: "https://training.zuri.team/",
   },
 
@@ -19,7 +19,7 @@ export default [
     id: 3,
     identifier: "books",
     title: "Zuri Books",
-    description: "",
+    description: "This is just testing",
     link: "http://books.zuri.team ",
   },
 
@@ -27,7 +27,7 @@ export default [
     id: 4,
     identifier: "book__python",
     title: "Python Books",
-    description: "",
+    description: "This is just testing",
     link: "https://books.zuri.team/python-for-beginners?ref_id=<fizy_hector>",
   },
 
@@ -35,14 +35,15 @@ export default [
     id: 5,
     identifier: "pitch",
     title: "Background Check for Coders",
-    description: "",
+    description: "This is just testing",
     link: "https://background.zuri.team",
   },
   {
     id: 6,
     identifier: "book__design",
     title: "Design Books",
-    description: "",
+    description: "This is just testing",
     link: "https://books.zuri.team/design-rules",
   },
+
 ];
