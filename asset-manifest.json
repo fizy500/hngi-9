@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hngi-9/static/css/main.2957db47.css",
+    "main.js": "/hngi-9/static/js/main.b616e92c.js",
+    "static/js/787.a0f50e7a.chunk.js": "/hngi-9/static/js/787.a0f50e7a.chunk.js",
+    "static/media/profilePhoto.jpg": "/hngi-9/static/media/profilePhoto.7288fd1f42fc4d099e41.jpg",
+    "static/media/I4G.svg": "/hngi-9/static/media/I4G.601ff0479d970c740e8b7d7ba7821548.svg",
+    "static/media/Zuri.Internship_Logo.svg": "/hngi-9/static/media/Zuri.Internship_Logo.9a3a2cc5911e06671e7da9351dd4f505.svg",
+    "static/media/slack.svg": "/hngi-9/static/media/slack.87ba9caeb75d37f14fe434c266c7d9c7.svg",
+    "static/media/github.svg": "/hngi-9/static/media/github.6a40f212828370260b880b93f8d36b56.svg",
+    "static/media/sharemobile.svg": "/hngi-9/static/media/sharemobile.ef0667842321f70b92ece6b332a6dc6f.svg",
+    "static/media/sharedesktop.svg": "/hngi-9/static/media/sharedesktop.e6f8fe3378c3f01261591e18cf689230.svg",
+    "index.html": "/hngi-9/index.html",
+    "main.2957db47.css.map": "/hngi-9/static/css/main.2957db47.css.map",
+    "main.b616e92c.js.map": "/hngi-9/static/js/main.b616e92c.js.map",
+    "787.a0f50e7a.chunk.js.map": "/hngi-9/static/js/787.a0f50e7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2957db47.css",
+    "static/js/main.b616e92c.js"
+  ]
+}
