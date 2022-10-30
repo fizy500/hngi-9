@@ -9,7 +9,7 @@ import I4G from "../Assets/I4G.svg";
 
 export function Profile() {
   return (
-    <section className="  flex justify-center items-center  mx-8 relative ">
+    <section className="flex justify-center items-center  mx-8 relative ">
       <div className="flex flex-col justify-center items-center">
         <img
           className="w-20 h-20 rounded-[50%] object-cover "
@@ -26,7 +26,7 @@ export function Profile() {
         <img
           src={ShareDesk}
           alt=""
-          className="hidden md:block  absolute top-1 right-[30rem] w-10 h-10 rounded-[50%] border-gray-300 border-dotted border-2"
+          className="hidden md:block   absolute top-1 right-[30rem] w-10 h-10 rounded-[50%] border-gray-300 border-dotted border-2"
         />
       </a>
       <a href="">
@@ -44,7 +44,7 @@ export function Links(props) {
   return (
     <a
       href={props.link}
-      className="bg-gray-200 text-center px-20 py-8 rounded-md shadow-sm focus:bg-gray-400  flex flex-col justify-center items-center mx-8 my-4 "
+      className="bg-gray-200 text-center px-20 py-8 rounded-md shadow-sm focus:bg-gray-400  flex flex-col justify-center  items-center mx-8 my-4 "
       id={props.identifier}
       title={props.description}
     >
