@@ -20,7 +20,9 @@ export function Profile() {
         <h2 className="font-bold text-gray-900 text-lg md:text-xl">
           Otuekong Idongesit
         </h2>
-        <p className="invisible" id="slack">fizy_hector</p>
+        <p className="invisible" id="slack">
+          fizy_hector
+        </p>
       </div>
       <a href="">
         <img

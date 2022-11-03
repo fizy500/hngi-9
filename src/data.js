@@ -46,4 +46,12 @@ export default [
     link: "https://books.zuri.team/design-rules",
   },
 
+  {
+    id: 7,
+    identifier: "contact",
+    title: "Contact Me",
+    description: "Contact",
+    link: "/contact",
+  },
+
 ];
