@@ -1,19 +1,25 @@
 import React from "react";
-import { Profile } from "./Components/Links";
-import { Links } from "./Components/Links";
-import { Logos } from "./Components/Links";
-import { Footer } from "./Components/Links";
-import data from "./data";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  BrowserRouter,
+} from "react-router-dom";
+import Home from "./Pages/Home";
+import Contact from "./Pages/Contact";
+
 export default function App() {
-  const links = data.map((item) => {
-    return <Links key={item.id} {...item} />;
-  });
   return (
-    <div className="my-6 ">
-      <Profile/>
-      {links}
-      <Logos />
-      <Footer />
+    <div>
+      <BrowserRouter>
+        <h1>Yes Yea</h1>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
+      <Home />
+      {/* <Contact /> */}
     </div>
   );
 }
