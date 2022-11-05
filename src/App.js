@@ -6,15 +6,14 @@ import {
   BrowserRouter,
 } from "react-router-dom";
 import Home from "./Pages/Home";
-import Contact from "./Pages/Contact";
 export default function App() {
   return (
     <div>
-
-        <Routes>
+      <Home />
+      {/* <Routes>
           <Route path="/hngi-9" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
-        </Routes>
+        </Routes> */}
     </div>
   );
 }
