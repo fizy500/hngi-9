@@ -10,9 +10,10 @@ import Contact from "./Pages/Contact";
 export default function App() {
   return (
     <div>
+
         <Routes>
           <Route path="/hngi-9" element={<Home />} />
-          <Route path="/hngi-9/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
     </div>
   );

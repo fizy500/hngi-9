@@ -1,7 +1,7 @@
 {
   "name": "hng-stage-1",
   "version": "0.1.0",
-  "homepage": "https://fizy500.github.io/hngi-9",
+  "homepage": "https://hngi-9-erm1m7mps-fizy500.vercel.app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
