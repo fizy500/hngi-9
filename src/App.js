@@ -12,7 +12,7 @@ export default function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/hngi-9" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
