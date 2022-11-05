@@ -34,7 +34,7 @@ export default function Contact() {
                 htmlFor="last_name"
                 className=" text-sm font-medium text-gray-700 mb-0"
               >
-                Second name
+                Last name
               </label>
               <input
                 type="text"
