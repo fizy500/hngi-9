@@ -41,7 +41,7 @@ export default function Contact() {
                 name="secondname"
                 id="last_name"
                 required
-                placeholder="Enter your first name"
+                placeholder="Enter your last name"
                 className="p-3 border-solid border-2 border-gray-300 rounded-lg outline-none focus:border-[#84CAFF]"
               />
             </div>
