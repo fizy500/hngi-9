@@ -10,12 +10,12 @@ import Contact from "./Pages/Contact";
 export default function App() {
   return (
     <div>
-      <Router>
+      <BrowserRouter>
         <Routes>
-          <Route path="/hngi-9" element={<Home />} />
+          <Route path="/Home" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }
