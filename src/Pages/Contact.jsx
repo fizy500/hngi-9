@@ -11,64 +11,73 @@ export default function Contact() {
           Hi there, contact me to ask me about anything you have in mind.
         </p>
         <form action="" className="flex flex-col space-y-3">
-          <label
-            htmlFor="first_name"
-            className=" text-sm  font-medium text-gray-700"
-          >
-            First name
-          </label>
-          <input
-            type="text"
-            name="firstname"
-            id="first_name"
-            required
-            placeholder="Enter your first name"
-            className="p-3 border-solid border-2 border-gray-300 rounded-lg outline-none focus:border-[#84CAFF]"
-          />
+          <div className="flex flex-col space-y-1">
+            <label
+              htmlFor="first_name"
+              className=" text-sm  font-medium text-gray-700"
+            >
+              First name
+            </label>
+            <input
+              type="text"
+              name="firstname"
+              id="first_name"
+              required
+              placeholder="Enter your first name"
+              className="p-3 border-solid border-2 border-gray-300 rounded-lg outline-none focus:border-[#84CAFF]"
+            />
+          </div>
 
-          <label
-            htmlFor="last_name"
-            className=" text-sm  font-medium text-gray-700 mb-0"
-          >
-            Second name
-          </label>
-          <input
-            type="text"
-            name="secondname"
-            id="last_name"
-            required
-            placeholder="Enter your first name"
-            className="p-3 border-solid border-2 border-gray-300 rounded-lg outline-none focus:border-[#84CAFF]"
-          />
-          <label
-            htmlFor="email"
-            className=" text-sm  font-medium text-gray-700"
-          >
-            Email
-          </label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            required
-            placeholder="yourname@email.com"
-            className="p-3 border-solid border-2 border-gray-300 rounded-lg outline-none focus:border-[#84CAFF]"
-          />
-          <label
-            htmlFor="message"
-            className=" text-sm  font-medium text-gray-700"
-          >
-            Message
-          </label>
-          <textarea
-            name="textarea"
-            id="message"
-            required
-            cols="30"
-            rows="8"
-            placeholder="Send me a message and I'll reply you as soon as possible..."
-            className="p-3 border-solid border-2 border-gray-300 rounded-lg resize-none outline-none focus:border-[#84CAFF]"
-          />
+          <div className="flex flex-col space-y-1">
+            <label
+              htmlFor="last_name"
+              className=" text-sm font-medium text-gray-700 mb-0"
+            >
+              Second name
+            </label>
+            <input
+              type="text"
+              name="secondname"
+              id="last_name"
+              required
+              placeholder="Enter your first name"
+              className="p-3 border-solid border-2 border-gray-300 rounded-lg outline-none focus:border-[#84CAFF]"
+            />
+          </div>
+          <div className="flex flex-col space-y-1">
+            <label
+              htmlFor="email"
+              className=" text-sm  font-medium text-gray-700"
+            >
+              Email
+            </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="yourname@email.com"
+              className="p-3 border-solid border-2 border-gray-300 rounded-lg outline-none focus:border-[#84CAFF]"
+            />
+          </div>
+          <div className="flex flex-col space-y-1">
+            <label
+              htmlFor="message"
+              className=" text-sm  font-medium text-gray-700"
+            >
+              Message
+            </label>
+            <textarea
+              name="textarea"
+              id="message"
+              required
+              cols="30"
+              rows="8"
+              placeholder="Send me a message and I'll reply you as soon as possible..."
+              className="p-3 border-solid border-2 border-gray-300 rounded-lg resize-none outline-none focus:border-[#84CAFF]"
+            />
+          </div>
+
           <div className="flex justify-center items-baseline space-x-2 px-1">
             <input
               type="checkbox"
