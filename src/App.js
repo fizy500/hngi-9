@@ -12,7 +12,7 @@ export default function App() {
     <div>
         <Routes>
           <Route path="/hngi-9" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/hngi-9/contact" element={<Contact />} />
         </Routes>
     </div>
   );
