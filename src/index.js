@@ -20,11 +20,3 @@ root.render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(
-//   <BrowserRouter>
-//     <App />
-//   </BrowserRouter>
-// );
-// reportWebVitals();
