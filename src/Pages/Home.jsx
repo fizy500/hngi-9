@@ -9,6 +9,7 @@ export default function Home() {
   const links = data.map((item) => {
     return <Links key={item.id} {...item} />;
   });
+  console.log(links);
   return (
     <div className="my-6 ">
       <Profile />

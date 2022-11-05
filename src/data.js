@@ -14,7 +14,6 @@ export default [
     description: "Zuri",
     link: "https://training.zuri.team/",
   },
-
   {
     id: 3,
     identifier: "books",
@@ -27,7 +26,8 @@ export default [
     id: 4,
     identifier: "book__python",
     title: "Python Books",
-    description: "Grab the nooks and crannies on the python programming language.",
+    description:
+      "Grab the nooks and crannies on the python programming language.",
     link: "https://books.zuri.team/python-for-beginners?ref_id=<fizy_hector>",
   },
 
@@ -45,7 +45,6 @@ export default [
     description: "Learn design for free.",
     link: "https://books.zuri.team/design-rules",
   },
-
   {
     id: 7,
     identifier: "contact",
@@ -53,5 +52,4 @@ export default [
     description: "Contact",
     link: "/contact",
   },
-
 ];
